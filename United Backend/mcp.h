@@ -1,5 +1,9 @@
 #pragma once
+
 #include "httplib.h"
+#include "json.hpp"
+
+using namespace nlohmann;
 using namespace httplib;
 
 void StartMCP(Server &server)
@@ -9,3 +13,11 @@ void StartMCP(Server &server)
 
 	});
 }
+
+json common_public = R"()";
+
+json GetCollection() { return common_public; }
+
+json collections = R"()";
+
+json GetCollection() { return collections; }

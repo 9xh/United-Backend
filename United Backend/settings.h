@@ -2,6 +2,7 @@
 
 // I would use define but idk.
 
-bool PROD = false;
 int PORT = 80;
+bool bIsHybrid = true;
 
+bool PROD = true;

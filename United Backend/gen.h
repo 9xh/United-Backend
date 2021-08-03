@@ -1,0 +1,9 @@
+void GenAthena()
+{
+
+}
+
+void GenCommonCore()
+{
+
+}

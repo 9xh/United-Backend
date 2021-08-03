@@ -16,6 +16,15 @@
     <Filter Include="Header Files\Server">
       <UniqueIdentifier>{a4987d39-2545-430d-ac25-682935958aff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Third Party">
+      <UniqueIdentifier>{aa0f5160-ae55-4eab-9c1a-c23684fab9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{2c14c57c-7f09-4a6d-b8cf-97fbfad1cc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources\templates">
+      <UniqueIdentifier>{b576b143-7f8e-4426-a362-e030da43adc6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="United Backend.cpp">
@@ -37,6 +46,21 @@
     </ClInclude>
     <ClInclude Include="settings.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xmpp.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Third Party</Filter>
+    </ClInclude>
+    <ClInclude Include="fortnite-game.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="timeline.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="gen.h">
+      <Filter>Header Files\resources\templates</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
