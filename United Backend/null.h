@@ -72,4 +72,11 @@ void StartNULL(Server& server)
 			//Result k = time.Get("/v1/epic/modes");
 			jsonn(res, GetTimeline());
 	});
+	if (!bIsHybrid)
+	{
+		server.Get(R"()", [](const Request& req, Response& res)
+		{
+
+		});
+	}
 }
