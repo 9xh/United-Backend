@@ -8,9 +8,10 @@ using namespace httplib;
 
 void StartMCP(Server &server)
 {
-	server.Get("", [](const Request& req, Response& res)
+	server.Get(R"(/fortnite/api/game/v2/profile/(.*)/client/(.*))", [](const Request& req, Response& res)
 	{
-
+			std::string accountID = req.matches[1];
+			std::string command = req.matches[2];
 	});
 }
 
